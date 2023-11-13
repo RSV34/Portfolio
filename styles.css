@@ -1,0 +1,136 @@
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+		*{
+			box-sizing: border-box;
+			padding: 0px;
+			overscroll-behavior-block: none;
+		}
+		body{
+			margin:0;
+			padding: 0;
+		}
+		nav{
+			background-color:lightgrey;
+			padding:0px;
+			position: fixed;
+			top: 0;
+			width:100%;
+		}
+		.navbar_main{
+			font-family:"Calibri",sans-serif;
+			display: flex;
+			justify-content: space-between;
+		}
+		.navbar_link{
+			display: flex;
+			justify-content: right;
+			list-style-type: none;
+			font-family:"Calibri",sans-serif;
+		}
+		.navbar_link a {
+			font-family:"Calibri",sans-serif;
+			font-size: 20px;
+			color: black;
+			padding:10px 10px;
+			text-decoration: none;
+		}
+		.navbar_link a:hover{
+			font-family:"Calibri",sans-serif;
+			color: darkred;
+		}
+		.about{
+			font-family: "Calibri",sans-serif;
+			background-color:white;
+			padding: 25px;
+		}
+		.one p
+		{
+			font-family: "Roboto",sans-serif;
+			font-size: 4rem;	
+			text-align: center;
+		}
+		.one{
+			text-align: center;
+			margin-bottom: 30vh;
+		}
+		.one span{
+			color: darkred;
+		}
+		.btn{
+		  background-color: whitesmoke; /* Green */
+		  border:solid darkred;
+		  color: black;
+		  padding: 15px 40px;
+		  font-size: 20px;
+		  text-align: center;
+		  text-decoration: none;
+		  font-family: "Calibri",sans-serif;
+		  transition: 0.3s;
+		  cursor: pointer;
+		}
+		.btn:hover{
+			background-color: darkred;
+			color: whitesmoke;
+		}
+		.two
+		{
+			height: 60vh;
+			background-color: darkred;
+			opacity: 1;
+			color: white;
+			text-align: center;
+			font-size: 2rem;
+			font-family: "Courier New",monospace;
+			/*display: flex;
+ 			justify-content: center;*/
+		}
+		.b 
+		{
+			background-color: white;
+			opacity: 1;
+			color: black;
+			text-align: center;
+			font-size: 2rem;
+			font-family: "Courier New",monospace;
+		}
+		.two p {
+			height: 5vh;
+		}
+		.three{
+			margin-top: 5vh;
+			margin-bottom: 5vh;
+			height: 50vh;
+			background-color: white;
+			text-align: center;
+			font-family: "Roboto",sans-serif;
+		}
+		.three h1,h2{
+			font-size: 3rem;
+		}
+		.three p{
+			font-size: 2rem;
+		}
+		.three span
+		{
+			color: darkred;
+		}
+		.icon img
+		{
+			height: 50px;
+			width: 50px;
+			margin:10px 20px;
+		}
+		.fixed_footer 
+		{ 
+			height:10vh;
+			background-color: lightgrey;
+			font-size: 20px;
+			font-family: "calibri",sans-serif;
+		}
+		.fixed_footer p {
+			padding: 20px 25px;
+			text-align: center;
+		}
+		@media screen and (max-width: 800px) {
+       .column1,.column2 {
+          width: 100%;
+        }
