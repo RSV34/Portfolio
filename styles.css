@@ -162,3 +162,26 @@
 		   	font-size: 25px;
 		   }
 		}
+		@media only screen and (max-width:480px){
+			nav{
+				font-size: 10px;
+			}
+			.navbar_link a {
+				font-size: 10px;
+			}
+			.a{
+				width:70%
+			}
+			.b{
+				width: 79%;
+			}
+			.b img{
+				width:228px;
+			}
+			.two1{
+				width:85%;
+			}
+			.two1 p{
+				font-size: 15px;
+			}
+		}
