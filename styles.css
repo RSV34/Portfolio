@@ -185,3 +185,12 @@
 				font-size: 20px;
 			}
 		}
+		@media only screen and (max-width:1200px){
+			  .b img{
+			   	width:400px;
+			   	height: 200px;
+			   }
+			   .para{
+			   	font-size: 19px;
+			   }
+			}
